@@ -1,0 +1,29 @@
+{
+  "name": "ns-assginment-igniting",
+  "version": "1.0.0",
+  "description": "creating running application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build-prod": "parcel build index.html",
+    "test": "ng test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raghavvarnika02/NAMESTEREACT-CODING-ASSIGNMENTS.git"
+  },
+  "author": "varnikaraghav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raghavvarnika02/NAMESTEREACT-CODING-ASSIGNMENTS/issues"
+  },
+  "homepage": "https://github.com/raghavvarnika02/NAMESTEREACT-CODING-ASSIGNMENTS#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "browsersList": [
+    "last 2 versions"
+  ]
+}
