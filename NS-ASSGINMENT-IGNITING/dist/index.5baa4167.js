@@ -3052,22 +3052,48 @@ const HeaderComponentUsingAnotherFunctionComponent = ()=>{
     }, undefined);
 };
 _c4 = HeaderComponentUsingAnotherFunctionComponent;
+const ReactFragmentInsideOtherReactFragment = ()=>{
+    //Not work way
+    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _jsxDevRuntime.Fragment), {
+            children: [
+                reactElement,
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
+                    children: "5. Hi I am functional component using arrow function"
+                }, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 83,
+                    columnNumber: 7
+                }, undefined),
+                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h2", {
+                    children: "5. I am a complex subtitle as I use return"
+                }, void 0, false, {
+                    fileName: "app.js",
+                    lineNumber: 84,
+                    columnNumber: 7
+                }, undefined)
+            ]
+        }, void 0, true)
+    }, void 0, false);
+};
+_c5 = ReactFragmentInsideOtherReactFragment;
 const root = (0, _clientDefault.default).createRoot(document.getElementById("root"));
 /*Change in syntax when we use functinal components:
 old syntax: root.render(reactElement);
 */ //RECOMMENDED: new
 root.render(/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)(HeaderComponentUsingReactElement, {}, void 0, false, {
     fileName: "app.js",
-    lineNumber: 85,
+    lineNumber: 96,
     columnNumber: 13
 }, undefined)); //This will also work since its a function
  //root.render(HeaderComponentUsingReactElement());
-var _c, _c1, _c2, _c3, _c4;
+var _c, _c1, _c2, _c3, _c4, _c5;
 $RefreshReg$(_c, "HeaderComponent");
 $RefreshReg$(_c1, "HeaderComponentWithSubTitle");
 $RefreshReg$(_c2, "HeaderComponentWithSubTitleAndNoReturn");
 $RefreshReg$(_c3, "HeaderComponentUsingReactElement");
 $RefreshReg$(_c4, "HeaderComponentUsingAnotherFunctionComponent");
+$RefreshReg$(_c5, "ReactFragmentInsideOtherReactFragment");
 
   $parcel$ReactRefreshHelpers$6024.postlude(module);
 } finally {

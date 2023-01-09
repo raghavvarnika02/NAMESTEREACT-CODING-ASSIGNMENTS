@@ -75,6 +75,17 @@ const HeaderComponentUsingAnotherFunctionComponent = () => {
   );
 };
 
+const ReactFragmentInsideOtherReactFragment = () => {
+  //Not work way
+  <>
+    <>
+      {reactElement}
+      <h1>5. Hi I am functional component using arrow function</h1>
+      <h2>5. I am a complex subtitle as I use return</h2>
+    </>
+  </>;
+};
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 /*Change in syntax when we use functinal components:
