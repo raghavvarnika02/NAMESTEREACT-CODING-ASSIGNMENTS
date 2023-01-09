@@ -28,7 +28,8 @@
   width: 100%;
 }
 
-.cusines {
+.restaurant-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
